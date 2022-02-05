@@ -335,11 +335,11 @@ button:focus {
 /*----------------------------------------------------*/
 /* Home Banner Area css
 ============================================================================================ */
-.home_banner_area {
+.home_banner_area img{
   position:relative;
   min-height: -150;
-  background: white;
-  opacity: 1;
+  background: #000;
+  opacity: 0.4;
   border-top-color: 10%;
   width: 100%;
 }
@@ -347,8 +347,11 @@ button:focus {
 .home_banner_area .carousel-caption {
   text-align: center;
   background-color: #000;
+  opacity: 0.8;
+  border-color: #007bff;
+  border-radius: 30px;
   color: white;
-  margin-bottom: 30%;
+  margin-bottom: 25%;
 }
 
 .carousel-caption h5 {
